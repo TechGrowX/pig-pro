@@ -1,8 +1,7 @@
-#
-# XXL-JOB
-# Copyright (c) 2015-present, xuxueli.
+DROP DATABASE IF EXISTS `pig_xxl_job`;
 
-CREATE database if NOT EXISTS `pig_xxl_job` default character set utf8mb4 collate utf8mb4_unicode_ci;
+CREATE DATABASE `pig_xxl_job` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
 use `pig_xxl_job`;
 
 SET NAMES utf8mb4;
@@ -131,9 +130,6 @@ CREATE TABLE `xxl_job_lock`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
 
-
-## —————————————————————— init data ——————————————————
-
 INSERT INTO `xxl_job_group`(`id`, `app_name`, `title`, `address_type`, `address_list`, `update_time`)
 VALUES (1, 'xxl-job-executor-sample', '示例执行器', 0, NULL, '2018-11-03 22:21:31');
 
@@ -153,4 +149,3 @@ INSERT INTO `xxl_job_lock` (`lock_name`)
 VALUES ('schedule_lock');
 
 commit;
-
