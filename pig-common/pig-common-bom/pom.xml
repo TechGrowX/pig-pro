@@ -88,6 +88,11 @@
                 <artifactId>pig-common-xss</artifactId>
                 <version>${revision}</version>
             </dependency>
+			<dependency>
+				<groupId>com.pig4cloud</groupId>
+				<artifactId>pig-common-xxl-job</artifactId>
+				<version>${revision}</version>
+			</dependency>
             <dependency>
                 <groupId>com.pig4cloud</groupId>
                 <artifactId>pig-common-excel</artifactId>
