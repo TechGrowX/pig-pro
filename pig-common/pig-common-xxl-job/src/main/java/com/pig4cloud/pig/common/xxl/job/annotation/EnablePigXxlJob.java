@@ -1,6 +1,6 @@
-package com.pig4cloud.pig.common.job.annotation;
+package com.pig4cloud.pig.common.xxl.job.annotation;
 
-import com.pig4cloud.pig.common.job.XxlJobAutoConfiguration;
+import com.pig4cloud.pig.common.xxl.job.XxlJobAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
