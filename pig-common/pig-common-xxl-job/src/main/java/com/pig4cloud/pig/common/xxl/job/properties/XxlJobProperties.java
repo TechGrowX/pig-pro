@@ -1,4 +1,4 @@
-package com.pig4cloud.pig.common.job.properties;
+package com.pig4cloud.pig.common.xxl.job.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
