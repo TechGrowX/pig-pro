@@ -48,6 +48,7 @@
         <knife4j.version>3.0.5</knife4j.version>
         <swagger.fox.version>3.0.0</swagger.fox.version>
         <xxl-job.version>3.0.0</xxl-job.version>
+		<nexus.host>http://127.0.0.1:8081</nexus.host>
         <docker.plugin.version>0.45.1</docker.plugin.version>
         <docker.host>http://192.168.0.100:2375</docker.host>
         <docker.registry>registry.cn-shanghai.aliyuncs.com</docker.registry>
@@ -322,4 +323,13 @@
 			</modules>
 		</profile>
 	</profiles>
+
+	<!-- 发布到 Maven 仓库 -->
+	<distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<name>Nexus Releases Repository</name>
+			<url>${nexus.host}/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
 </project>

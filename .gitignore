@@ -59,3 +59,4 @@ Thumbs.db
 Servers
 .metadata
 .flattened-pom.xml
+.fuse_*
