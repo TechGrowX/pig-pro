@@ -6,6 +6,13 @@
  <img src="https://img.shields.io/github/license/pig-mesh/pig"/>
 </p>
 
+**严肃声明：现在、未来本项目都不会收费，所有代码全部开源！！**
+
+**「代码是我的艺术，调试是我的雕刻」** <br>
+**「开源是我的信仰，分享是我的初心」**
+
+如果这个项目对你有所帮助，请记得给个 Star！你的支持是我持续优化和更新的动力源泉。
+
 ## 系统说明
 
 - 基于 Spring Cloud 2021 、Spring Boot 2.7、 OAuth2 的 RBAC **权限管理系统**
