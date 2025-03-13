@@ -95,7 +95,8 @@ pig
 └── pig-visual
      └── pig-monitor -- 服务监控 [5001]
      ├── pig-codegen -- 图形化代码生成 [5002]
-     └── pig-quartz -- 定时任务管理台 [5007]
+     ├── pig-quartz -- 定时任务管理台 [5007]
+     └── pig-xxl-job-admin -- 分布式定时任务管理控制台 [5004]
 ```
 
 ## 免费公开课
