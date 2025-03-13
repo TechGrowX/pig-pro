@@ -14,7 +14,7 @@
 	<description>pig 定时任务, 基于xxl-job</description>
 
 	<dependencies>
-		<!--xxl job-->
+		<!--xxl-job-->
 		<dependency>
 			<groupId>com.xuxueli</groupId>
 			<artifactId>xxl-job-core</artifactId>
