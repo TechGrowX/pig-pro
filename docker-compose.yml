@@ -116,6 +116,20 @@ services:
     networks:
       - spring_cloud_default
 
+  pig-xxl-job-admin:
+    build:
+      context: ./pig-visual/pig-xxl-job-admin
+    restart: always
+    image: pig-xxl-job-admin
+    container_name: pig-xxl-job-admin
+    hostname: pig-xxl-job-admin
+    ports:
+      - 5004:5004
+    environment:
+      MYSQL_HOST: pig-mysql
+    networks:
+      - spring_cloud_default
+
 networks:
   spring_cloud_default:
     name:  spring_cloud_default
