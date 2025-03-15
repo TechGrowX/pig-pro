@@ -18,12 +18,13 @@ db:
 nacos:
   core:
     auth:
+      enabled: true
       server:
         identity:
-          key: serverIdentity
-          value: security
+          key: @nacos.identity.key@
+          value: @nacos.identity.value@
       system.type: nacos
-      plugin.nacos.token.secret.key: SecretKey012345678901234567890123456789012345678901234567890123456789
+      plugin.nacos.token.secret.key: @nacos.token.secret.key@
   security:
     ignore:
       urls: /actuator/**,/,/error,/**/*.css,/**/*.js,/**/*.html,/**/*.map,/**/*.svg,/**/*.png,/**/*.ico,/console-fe/public/**,/v1/auth/**,/v1/console/health/**,/actuator/**,/v1/console/server/**
